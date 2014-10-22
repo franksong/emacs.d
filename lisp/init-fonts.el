@@ -50,6 +50,11 @@ by the :height face attribute."
 (global-set-key (kbd "C-M-=") 'sanityinc/increase-default-font-height)
 (global-set-key (kbd "C-M--") 'sanityinc/decrease-default-font-height)
 
-
+;; set English Font
+(set-frame-font "Monaco-13")
+;;set Chinese Font
+(set-fontset-font (frame-parameter nil 'font)
+                  'han
+                  (font-spec :family "Kaiti SC" :size 14))
 
 (provide 'init-fonts)

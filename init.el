@@ -83,6 +83,7 @@
 (require 'init-ruby-mode)
 (require 'init-rails)
 (require 'init-sql)
+(require 'init-go)
 
 (require 'init-paredit)
 (require 'init-lisp)
@@ -100,6 +101,7 @@
 
 (require 'init-dash)
 (require 'init-ledger)
+(require 'init-tag-findfile)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)
