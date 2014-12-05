@@ -34,3 +34,5 @@ site-lisp/package/
 /image-dired/
 /eshell
 /.DS_Store
+ido.last
+recentf
