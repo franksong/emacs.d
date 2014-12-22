@@ -5,7 +5,7 @@
 
 (setenv "GOBIN" "/Users/frank/mygo/bin")
 (setenv "GOPATH" (concat (getenv "GOPATH") ":" (getenv "DPSGGO") ":" (getenv "DPSG3RDPKG")))
-(setenv "PATH" (concat (getenv "PATH") ":" (getenv "GOBIN")))
+;; (setenv "PATH" (concat (getenv "PATH") ":" (getenv "GOBIN")))
 
 (require-package 'go-mode)
 (require-package 'go-autocomplete)
