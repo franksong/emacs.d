@@ -43,6 +43,7 @@
 (require 'init-themes)
 (require 'init-osx-keys)
 (require 'init-gui-frames)
+(require 'init-sr-speedbar)
 (require 'init-proxies)
 (require 'init-dired)
 (require 'init-isearch)
@@ -85,7 +86,7 @@
 (require 'init-ruby-mode)
 (require 'init-rails)
 (require 'init-sql)
-(require 'init-go)
+(require 'init-go-mode)
 
 (require 'init-paredit)
 (require 'init-lisp)
