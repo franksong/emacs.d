@@ -31,8 +31,10 @@
 (add-hook 'go-mode-hook (lambda ()
                           (local-set-key (kbd "C-c C-k") 'godoc)))
 
-;;; godef (go get code.google.com/p/rog-go/exp/cmd/godef
+;;; godef (install: go get code.google.com/p/rog-go/exp/cmd/godef)
 ;; C-c C-j godef-jump default key M-*: jump back; Cc Cd godef-describe default key
+
+;;; gocode (install: go get github.com/nsf/gocode)
 
 ;;; TODO go oracle
 
