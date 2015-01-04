@@ -103,7 +103,6 @@
 
 (require 'init-dash)
 (require 'init-ledger)
-(require 'init-tag-findfile)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)
