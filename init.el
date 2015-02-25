@@ -87,6 +87,7 @@
 (require 'init-rails)
 (require 'init-sql)
 (require 'init-go-mode)
+(require 'init-c-mode)
 
 (require 'init-paredit)
 (require 'init-lisp)

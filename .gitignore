@@ -36,3 +36,5 @@ site-lisp/package/
 /.DS_Store
 ido.last
 recentf
+ede-projects.el
+/semanticdb
