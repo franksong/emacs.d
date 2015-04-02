@@ -38,3 +38,6 @@ ido.last
 recentf
 ede-projects.el
 /semanticdb
+/.cask/
+/.sx/
+/org-clock-save.el
