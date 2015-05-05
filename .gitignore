@@ -41,3 +41,4 @@ ede-projects.el
 /.cask/
 /.sx/
 /org-clock-save.el
+/ditaa*.jar
