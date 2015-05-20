@@ -89,6 +89,7 @@
 (require 'init-sql)
 (require 'init-go-mode)
 (require 'init-c-mode)
+(require 'init-lua)
 
 (require 'init-paredit)
 (require 'init-lisp)
@@ -108,7 +109,7 @@
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)
-(require-package 'lua-mode)
+;; (require-package 'lua-mode)
 (require-package 'htmlize)
 (require-package 'dsvn)
 (when *is-a-mac*
