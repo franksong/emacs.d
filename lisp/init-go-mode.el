@@ -42,8 +42,8 @@
  'go-mode-hook
  '(lambda ()
     ;; gocode
-    ;; (auto-complete-mode t)
-    ;; (setq ac-sources 'ac-source-go)
+    (auto-complete-mode t)
+    (setq ac-sources 'ac-source-go)
     ;; Imenu & Speedbar
     (setq imenu-generic-expression
           '(("type" "^type *\\([^ \t\n\r\f]*\\)" 1)
