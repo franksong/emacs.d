@@ -44,3 +44,4 @@ ede-projects.el
 /ditaa*.jar
 /.python-environments
 projectile-bookmarks.eld
+projectile.cache

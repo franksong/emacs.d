@@ -51,7 +51,9 @@ May be necessary for some GUI environments (e.g., Mac OS X)")
     ;; Looks like you need Emacs 24 for projectile
     (unless (< emacs-major-version 24)
       (require 'projectile)
-      (projectile-global-mode))
+      (require-package 'grizzl)
+      (projectile-global-mode)
+      (setq projectile-completion-system 'grizzl))
 
     ;; Auto-complete
     (require 'auto-complete-config)
