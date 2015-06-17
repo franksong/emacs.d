@@ -45,3 +45,6 @@ ede-projects.el
 /.python-environments
 projectile-bookmarks.eld
 projectile.cache
+/ido.last
+/recentf
+/viper
