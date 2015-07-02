@@ -5,6 +5,9 @@
 
 (require-package 'pip-requirements)
 
+;;; use python3
+(setq python-shell-interpreter "python3")
+
 ;;; jedi & projectile
 
 ;; Package setup
@@ -53,6 +56,14 @@ May be necessary for some GUI environments (e.g., Mac OS X)")
       (require 'projectile)
       (require-package 'grizzl)
       (projectile-global-mode)
+
+      ;; open top dir when switch to a project
+      (setq projectile-switch-project-action 'projectile-dired)
+
+      ;; open a subdir or top dir when switch to a project
+      ;; (setq projectile-switch-project-action 'projectile-find-dir)
+      ;; (setq projectile-find-dir-includes-top-level t)
+
       (setq projectile-completion-system 'grizzl))
 
     ;; Auto-complete
@@ -151,7 +162,7 @@ May be necessary for some GUI environments (e.g., Mac OS X)")
       (set-exec-path-from-shell-PATH)
       (make-local-variable 'jedi:server-command)
       (set 'jedi:server-command
-           (list (executable-find "python") ;; may need help if running from GUI
+           (list (executable-find "python3") ;; may need help if running from GUI
                  (cadr default-jedi-server-command))))
 
     ;; Now hook everything up
