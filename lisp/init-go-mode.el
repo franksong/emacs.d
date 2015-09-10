@@ -1,10 +1,11 @@
 ;;; GOPATH
 (setenv "GOPATH" "/Users/frank/mygo")
-(setenv "DPSGGO" "/Users/frank/dpsg/game/server")
-(setenv "DPSG3RDPKG" "/Users/frank/dpsg/game/server/3rdpkg")
+;; (setenv "DPSGGO" "/Users/frank/dpsg/game/server")
+;; (setenv "DPSG3RDPKG" "/Users/frank/dpsg/game/server/3rdpkg")
+(setenv "NEWGAMEGO" "/Users/frank/dpsg/newgame/AshesToAshes/server")
 
 (setenv "GOBIN" "/Users/frank/mygo/bin")
-(setenv "GOPATH" (concat (getenv "GOPATH") ":" (getenv "DPSGGO") ":" (getenv "DPSG3RDPKG")))
+(setenv "GOPATH" (concat (getenv "GOPATH") ":" (getenv "NEWGAMEGO")))
 ;; (setenv "PATH" (concat (getenv "PATH") ":" (getenv "GOBIN")))
 
 (require-package 'go-mode)
