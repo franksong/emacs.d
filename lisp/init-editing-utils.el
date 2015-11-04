@@ -26,7 +26,7 @@
  set-mark-command-repeat-pop t
  tooltip-delay 1.5
  truncate-lines nil
- truncate-partial-width-windows nil
+ truncate-partial-width-windows nil)
 
 ;; show line number
 (global-linum-mode t)
