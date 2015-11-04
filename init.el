@@ -55,7 +55,6 @@
 (require 'init-osx-keys)
 (require 'init-gui-frames)
 (require 'init-sr-speedbar)
-(require 'init-proxies)
 (require 'init-dired)
 (require 'init-isearch)
 (require 'init-grep)
